@@ -1,0 +1,52 @@
+body{
+    background-color:black;
+}
+
+h1,a,i{
+    color:white;
+    text-decoration:none;
+}
+
+header{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+}
+
+nav{
+    border:1px solid white;
+}
+
+nav a{
+    padding:10px;
+    font-size:18px;
+}
+
+nav a:hover{
+    background-color:white;
+    color:black;
+    cursor:pointer;
+}
+
+figure{
+    text-align: center;
+    transform: rotate(-3deg);
+    transform-origin: 50% 50%;
+    max-width:100%;
+    margin-top:50px;
+}
+
+figure figcaption{
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 0 0 4px grey;
+}
+
+figure img{
+    background-color: white;
+    padding: 1em;
+    border-radius: 6px;
+    box-shadow: 10px 10px 8px #222222;
+    width:30%;
+}
